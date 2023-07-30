@@ -1,0 +1,27 @@
+[{
+    // 添加BUFF 清除BUFF
+    'get_ViewProxy':{function:'Battle.HeroGroup@get_ViewProxy'，offset:'0x035d645c'}，
+    'AddGloableBuff':{function:'Battle.HeroGroup@AddGloableBuff',offset:'0x035d961c'}，
+    'ClearAllBuff':{function:'Battle.HeroGroup@ClearAllBuff',offset:'0x035d8c9c'}，
+    'get_PlayerName':{function:'Battle.HeroGroup@get_PlayerName',offset:'0x035d62d4'}，
+    // 无限蓝
+    'settleMp':{function:'Battle.HeroCore@settleMp',offset:'0x035d4b28'}，
+    'RequestSettleOnHitByBullte':{function:'Battle.HeroCore@RequestSettleOnHitByBullte',offset:'0x035d4ba0'}，
+    'RequestSettleOnHitBySkill':{function:'Battle.HeroCore@RequestSettleOnHitBySkill',offset:'0x0360c258'}，
+    // 杀死怪物
+    'OnMonsterCreateView':{function:'Battle.BattleManager@OnMonsterCreateView',offset:'0x026c250c'}，
+    'KillAllMonster':{function:'Battle.BattleManager@KillAllMonster',offset:'0x026c5974'}，
+    // 到BOSS房过关
+    'OnEnteredDungeon':{function:'Dungeon.NewInnersDungeonProcess@OnEnteredDungeon',offset:'0x02840b78'}，
+    'JumpToBossRoom':{function:'Dungeon.NewInnersDungeonProcess@JumpToBossRoom',offset:'0x02841138'}，
+    'AfterKillBoss':{function:'Dungeon.NewInnersDungeonProcess@AfterKillBoss',offset:'0x02841f98'}，
+    // 多重技能
+    'UseSkill':{function:'Battle.HeroSkillEntity@UseSkill',offset:'0x035ddb98'}，
+    // 怪物自杀
+    'AddInnerBuff':{function:'Battle.BattleObjectCore@AddInnerBuff',offset:'0x03880e5c'}，
+    // 不关门
+    'CloseDoor':{function:'Dungeon.SimpleTriggerRoomDoor@CloseDoor',offset:'0x02d9a2ec'}，
+    // 魂卡
+    'OnEnteredDungeon2':{function:'Dungeon.SingleCardDunegonProcess@OnEnteredDungeon',offset:'0x02d9b338'}，
+    'CreatTreasureBox':{function:'Dungeon.SingleCardDunegonProcess@CreatTreasureBox',offset:'0x02d9d238'}，
+}]
